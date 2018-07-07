@@ -1,0 +1,25 @@
+body {
+    background-color: #c4ecf2;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    position: absolute;
+    margin: 100px 0px 0px 600px;
+    font-size: xx-large;
+    font-family: arial;
+}
+
+a:link, a:visited {
+  color: #045491;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}

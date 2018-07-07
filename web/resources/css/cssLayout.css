@@ -1,0 +1,89 @@
+#img{
+    width: 100%;
+}
+
+#divLogin{
+    position: relative;
+
+    margin: 200px 0px 0px 500px;
+    border-radius:7px;
+    font-size: x-large;
+    font-family: fantasy;
+}
+#top {
+    position: relative;
+    background-color:white;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+#menuleft {
+    float: left;
+    background-color: #579098;
+    padding: 5px;
+    width: 150px;
+    font-size: large;
+    border-radius:7px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+#corpo{
+    line-height: 50px;
+    text-align:center;
+    background-color: transparent;
+    float:right;
+    position: absolute;
+    top: 65%;
+    left: 200px;
+}
+
+
+#menuBarra{
+    border-radius:7px;
+    font-size: large;
+}
+
+#textCorpo{
+    position: absolute;
+    top: 45%;
+    right: 1100px;
+    font-family: inherit;
+}
+
+#textCorpoE{
+    position: absolute;
+    top: 45%;
+    right:1000px;
+    font-family: inherit;
+}
+
+#atrib{
+    position:absolute;
+    top:30%;
+    right: -500px;
+    font-size: x-large;
+}
+
+#bot{
+    
+}
+
+
+
+
+
+
+

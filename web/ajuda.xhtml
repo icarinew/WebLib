@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/default.css"/>
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+    </h:head>
+    <h:body>
+        <div id="top">
+            <p:graphicImage id="img" library="images" name="Acervo.png"/>
+        </div>
+        <div id="menuBarra">
+            <h:form>
+                <p:menubar>
+                    <p:menuitem value="Feed" action="#{irParaController.irParaPagInicial()}"/>
+                    <p:menuitem value="Minhas Postagens" action="#{irParaController.irParaPagMinhasPost()}"/>
+                    <p:menuitem value="Escrivaninha" action="#{irParaController.irParaPagEscrivaninha()}"/>
+                    <p:menuitem value="Ajuda" action="#{irParaController.irParaPagAjuda()}"/>
+                </p:menubar>
+            </h:form>    
+        </div>
+
+        <div id="menuleft">
+
+            <h:form>
+                <p:menubar>
+                    <p:menuitem value="Contos"/>
+                    <p:menuitem value="Livros"/>
+                    <p:menuitem value="Músicas"/>
+                    <p:menuitem value="Pensamentos"/>
+                    <p:menuitem value="Poemas"/>
+                </p:menubar>
+            </h:form>    
+        </div>
+    </h:body>
+</html>
+
