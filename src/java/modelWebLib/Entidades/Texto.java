@@ -43,7 +43,6 @@ public class Texto implements Serializable{
         this.usuario = usuario;
     }
    public Texto(){
-       
    } 
 
     public long getId() {

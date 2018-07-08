@@ -34,7 +34,7 @@ public class IrParaController {
         FacesContext context = FacesContext.getCurrentInstance();
 
         try {
-            context.getExternalContext().redirect("PaginaInicial.xhtml");
+            context.getExternalContext().redirect("paginaInicial.xhtml");
         } catch (IOException ex) {
             context.addMessage(null, new FacesMessage(" falhou."));
         }
@@ -94,7 +94,7 @@ public class IrParaController {
         FacesContext context = FacesContext.getCurrentInstance();
 
         try {
-            context.getExternalContext().redirect("minhasPost.xhtml");
+            context.getExternalContext().redirect("minhasPostagens.xhtml");
         } catch (IOException ex) {
             context.addMessage(null, new FacesMessage(" falhou."));
         }
