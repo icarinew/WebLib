@@ -19,14 +19,15 @@
                 
                 <h:form>
                 <p:menubar>
-                    <p:menuitem value="Contos"/>
-                    <p:menuitem value="Livros"/>
-                    <p:menuitem value="Músicas"/>
-                    <p:menuitem value="Pensamentos"/>
-                    <p:menuitem value="Poemas"/>
+                    <p:menuitem value="Contos" action="#{irParaController.irParaPagContos()}" />
+                    <p:menuitem value="Livros" action="#{irParaController.irParaPagLivros()}" />
+                    <p:menuitem value="Músicas" action="#{irParaController.irParaPagMusicas()}" />
+                    <p:menuitem value="Pensamentos" action="#{irParaController.irParaPagPensam()}"/>
+                    <p:menuitem value="Poemas" action="#{irParaController.irParaPagPoemas()}" />
                 </p:menubar>
                 </h:form>    
             </div>
+        </div>
     </h:body>
 </html>
 
