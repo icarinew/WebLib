@@ -37,9 +37,8 @@
             </h:form>    
         </div>
         <h1 id="textCorpoE"> Escrivaninha </h1>
-        <div id="corpo">
+        
             <h:form>
-                <p:fileUpload id="inputfile" value="#{fileUploadView.file}" mode="simple"/>
                     <p:panelGrid columns="2">
                         <p:outputLabel value="Título:"/>
                         <p:inputText value="#{livroController.livro.titulo}"/>
@@ -47,13 +46,14 @@
                         <p:inputText value="#{livroController.livro.autor}"/>
                         <p:outputLabel value="Categoria:"/>
                         <p:inputText value="#{livroController.livro.categoria}"/>
+                        <p:outputLabel value="Edição"/>
+                        <p:inputText value="#{livroController.livro.edicao}"/>
                         <p:outputLabel value="ISBN:"/>
                         <p:inputText value="#{livroController.livro.isbn}"/>
-                        <p:commandButton value="Submeter!" action="#{livroController.adicionarLivro()}"/>
+                        <p:commandButton value="Submeter!" action="#{livroController.AdicionarLivro()}" />
                     </p:panelGrid>
-               
             </h:form>
-        </div>    
+         
     </h:body>
 </html>
 
