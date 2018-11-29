@@ -42,6 +42,26 @@ public class testesCrud {
         tc.setTexto(text);
         assertEquals(text.getId(), tc.BuscarTexto().getId());
     }
+    
+    @Test 
+    public void listarTodosUsuarios () {
+        UsuarioController uc = new UsuarioController();
+        assertNotNull(uc.BuscarUsuarios());
+    }
+    
+    @Test 
+    public void listarTodosLivros () {
+        LivroController lc = new LivroController();
+        assertNotNull(lc.BuscarLivros());
+    }
+    
+    @Test 
+    public void listarTodosTextos () {
+        TextoController tc = new TextoController();
+        assertNotNull(tc.BuscarTextos());
+    }
+    
+    
     @BeforeClass
     public static void setUpClass() {
     }
