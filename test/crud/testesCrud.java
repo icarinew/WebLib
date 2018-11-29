@@ -61,6 +61,12 @@ public class testesCrud {
         assertNotNull(tc.BuscarTextos());
     }
     
+    @Test
+    public void deletarUsuario (Usuario user) {
+        UsuarioController uc = new UsuarioController();
+        assertNull(uc.BuscarUsuario());
+        
+    }
     
     @BeforeClass
     public static void setUpClass() {

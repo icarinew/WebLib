@@ -30,12 +30,12 @@ public class UsuarioController {
    }
       
     public void DeletarUsuario() {
-       FacesContext context = FacesContext.getCurrentInstance();
+       //FacesContext context = FacesContext.getCurrentInstance();
       	 try {
            um.deletarUsuario(u);
-           context.addMessage(null, new FacesMessage("Usuário deletado com sucesso!"));
+           //context.addMessage(null, new FacesMessage("Usuário deletado com sucesso!"));
         } catch (Exception ex) {
-            context.addMessage(null, new FacesMessage("Falha ao excluir usuário!"));
+            //context.addMessage(null, new FacesMessage("Falha ao excluir usuário!"));
         }
    }     
     
